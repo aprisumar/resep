@@ -69,8 +69,7 @@ public class ResepActivity extends MyFunction {
 
                 if (sukses.equals("true")) {
                     pesan(pesan);
-                    Log.d("  Retrofit ", " Berhasil dapatkan " + pesan);
-                    Log.d("  Retrofit ", " Berhasil dapatkan " + sukses);
+              
 
                     dataresep = response.body().getResep();
                     //showdata makanan
